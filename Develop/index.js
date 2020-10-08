@@ -55,12 +55,12 @@ function init() {
     // Ask user questions about the project
     inquirer.prompt(questions)
         .then((answers) => {
-            console.log(answers);
+            // console.log(answers);
             const markDown = generateMarkdown(answers);
             console.log(markDown);
             writeToFile(answers.title + ".md", markDown);
         })
-    console.log("Answer the questions!")
+    // console.log("Answer the questions!")
 
 
     // save string to a .md file
