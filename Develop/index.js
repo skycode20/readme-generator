@@ -15,6 +15,18 @@ const questions = [
     }
     ,
     {
+        message: "What is your Git Hub username?",
+        name: "username"
+
+    }
+    ,
+    {
+        message: "What is your email address?",
+        name: "email"
+
+    }
+    ,
+    {
         message: "What is your project title?",
         name: "title"
 
@@ -46,7 +58,7 @@ function init() {
             console.log(answers);
             const markDown = generateMarkdown(answers);
             console.log(markDown);
-            writeToFile(answers.title + ".md",  markDown);
+            writeToFile(answers.title + ".md", markDown);
         })
     console.log("Answer the questions!")
 
