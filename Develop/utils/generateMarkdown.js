@@ -1,12 +1,17 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
   return `# ${answers.title}
+
+  ![${answers.npm}](https://img.shields.io/npm/l/${answers.npm})
+
   - by *${answers.name}*
   
   ## Description    
+
   ${answers.description} 
 
-  ## Table Of Contents
+  ## Table Of Contents    
+
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
@@ -14,19 +19,22 @@ function generateMarkdown(answers) {
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## Installation
+  ## Installation    
+
   ${answers.install}
 
-  ## Usage
+  ## Usage    
 
-  ## License
-  ![${answers.npm}](https://img.shields.io/npm/l/${answers.npm})
+  ## License    
 
-  ## Contributing
+  The ${answers.npm} is covered under the following license: ![${answers.npm}](https://img.shields.io/npm/l/${answers.npm})
 
-  ## Tests
+  ## Contributing     
 
-  ## Questions   
+  ## Tests    
+
+  ## Questions    
+
   If you have any questions about the project feel free to reach out to me on via email: ${answers.email} or via Git Hub: https://github.com/${answers.username}.
   
 
