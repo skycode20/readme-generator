@@ -35,7 +35,10 @@ function generateMarkdown(answers) {
 
   ## Contributing     
 
-  ${answers.contributing}
+  If you are interested in contributing to this project please adhere to the set of guidelines set forth by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/). If any questions about the contributor guidelines feel free to contact me at ${answers.email}.
+
+  ${answers.contributing}    
+  
 
   ## Tests    
 
