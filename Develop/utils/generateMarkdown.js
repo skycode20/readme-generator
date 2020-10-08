@@ -25,6 +25,8 @@ function generateMarkdown(answers) {
 
   ## Usage    
 
+  ${answers.usage}
+
   ## License    
 
   The ${answers.npm} is covered under the following license: ![${answers.npm}](https://img.shields.io/npm/l/${answers.npm})
