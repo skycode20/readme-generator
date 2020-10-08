@@ -33,7 +33,11 @@ function generateMarkdown(answers) {
 
   ## Contributing     
 
+  ${answers.contributing}
+
   ## Tests    
+
+  ${answers.test}
 
   ## Questions    
 

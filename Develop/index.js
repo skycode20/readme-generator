@@ -54,6 +54,19 @@ const questions = [
         name: "npm"
 
     }
+    ,
+    {
+        message: "If there are contributors to your project, what are the guidelines for anyone planning to contribute? (i.e. Code of Conduct):",
+        name: "contributing"
+
+    }
+    ,
+    {
+        message: "Have you run any tests for you application? Please provide examples on how to run the test(s):",
+        name: "tests"
+
+    }
+    
 ];
 
 // function to write README file
