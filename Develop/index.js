@@ -1,6 +1,5 @@
 const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown")
-// require fs npm
 const fs = require("fs")
 const util = require("util")
 
@@ -55,16 +54,11 @@ function init() {
     // Ask user questions about the project
     inquirer.prompt(questions)
         .then((answers) => {
-            // console.log(answers);
             const markDown = generateMarkdown(answers);
             console.log(markDown);
             writeToFile(answers.title + ".md", markDown);
         })
-    // console.log("Answer the questions!")
 
-
-    // save string to a .md file
-    // fs.appendFile()
 
 }
 
