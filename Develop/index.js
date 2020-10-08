@@ -1,6 +1,10 @@
 const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown")
 // require fs npm
+const fs = require("fs")
+const util = require("util")
+
+const writeAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questions = [
@@ -30,7 +34,8 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+async function writeToFile(fileName, data) {
+    await writeAsync(fileName, data);
 }
 
 // function to initialize program
@@ -41,9 +46,10 @@ function init() {
             console.log(answers);
             const markDown = generateMarkdown(answers);
             console.log(markDown);
+            writeToFile(answers.title + ".md",  markDown);
         })
     console.log("Answer the questions!")
-    
+
 
     // save string to a .md file
     // fs.appendFile()
