@@ -15,6 +15,18 @@ const questions = [
         name: "title"
 
     }
+    ,
+    {
+        message: "Please enter a description of the project:",
+        name: "description"
+
+    }
+    ,
+    {
+        message: "Please enter the installation instructions (if any):",
+        name: "install"
+
+    }
 ];
 
 // function to write README file
@@ -30,7 +42,7 @@ function init() {
             const markDown = generateMarkdown(answers);
             console.log(markDown);
         })
-    console.log("After questions!")
+    console.log("Answer the questions!")
     
 
     // save string to a .md file
