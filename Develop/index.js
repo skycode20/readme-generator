@@ -66,6 +66,18 @@ const questions = [
         name: "tests"
 
     }
+    ,
+    {
+        message: "What is the link to your repo?",
+        name: "link"
+
+    }
+    ,
+    {
+        message: "Please enter the path of your project (i.e.: /skycode20/...):",
+        name: "path"
+
+    }
     
 ];
 

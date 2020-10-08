@@ -3,6 +3,7 @@ function generateMarkdown(answers) {
   return `# ${answers.title}
 
   ![${answers.npm}](https://img.shields.io/npm/l/${answers.npm})
+  ![${answers.title}](https://img.shields.io/github/languages/top/${answers.path})
 
   - by *${answers.name}*
   
@@ -43,6 +44,9 @@ function generateMarkdown(answers) {
 
   If you have any questions about the project feel free to reach out to me on via email: ${answers.email} or via Git Hub: https://github.com/${answers.username}.
   
+  ## Links
+
+  * [${answers.title} Application](${answers.link})
 
 `;
 }
