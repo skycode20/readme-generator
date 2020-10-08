@@ -42,6 +42,12 @@ const questions = [
         name: "install"
 
     }
+    ,
+    {
+        message: "Please enter one npm you used:",
+        name: "npm"
+
+    }
 ];
 
 // function to write README file

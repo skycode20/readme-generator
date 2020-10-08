@@ -20,6 +20,7 @@ function generateMarkdown(answers) {
   ## Usage
 
   ## License
+  ![${answers.npm}](https://img.shields.io/npm/l/${answers.npm})
 
   ## Contributing
 
