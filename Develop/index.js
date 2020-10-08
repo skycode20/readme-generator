@@ -38,6 +38,12 @@ const questions = [
     }
     ,
     {
+        message: "How do you utilize your project? Provide instructions and examples for use:",
+        name: "usage"
+
+    }
+    ,
+    {
         message: "Please enter the installation instructions (if any):",
         name: "install"
 
