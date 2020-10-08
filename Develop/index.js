@@ -74,7 +74,7 @@ const questions = [
     }
     ,
     {
-        message: "Please enter the path of your project (i.e.: /skycode20/...):",
+        message: "Please enter the path of your project (i.e.: skycode20/...):",
         name: "path"
 
     }

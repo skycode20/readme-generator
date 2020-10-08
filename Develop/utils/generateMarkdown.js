@@ -4,6 +4,7 @@ function generateMarkdown(answers) {
 
   ![${answers.npm}](https://img.shields.io/npm/l/${answers.npm})
   ![${answers.title}](https://img.shields.io/github/languages/top/${answers.path})
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
   - by *${answers.name}*
   
@@ -38,7 +39,7 @@ function generateMarkdown(answers) {
 
   ## Tests    
 
-  ${answers.test}
+  ${answers.tests}
 
   ## Questions    
 
