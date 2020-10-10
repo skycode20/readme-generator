@@ -48,7 +48,8 @@
   1. Use the command: ```node index.js ``` inside of the system terminal to run the file.
   2. Follow the prompts inside of the terminal that request information about your projects.
   <br>    
-  ![Usagesnip1](Develop\assets\img\usagesnip1.jpg)<br>
+  <!-- ![Usagesnip1](Develop\assets\img\usagesnip1.jpg) -->
+  <img src="Develop\assets\img\usagesnip1.jpg" alt="Usagesnip1"><br>
   3. Once you are finished with the prompts press 'enter' and the application will automatically generate the markdown file bearing the name of your project filled out with the inputted information about your project located within its relevant sections. The file will be created within the folder that the application's source files are located.
   <br>
   ![Usagesnip2](Develop\assets\img\usagesnip2.jpg)
