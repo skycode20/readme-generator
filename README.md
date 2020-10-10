@@ -31,7 +31,7 @@
 
   To install the README Generator please follow these steps:
 
-  1. Download all of the project's source files.
+  1. Download all of the project's source files (clone the GitHub repository).
   2. Ensure your terminal is inside of the current folder that contains the source files.
   3. Install the following **NPMs** (Node Package Managers) in the system terminal:
         * Node.js
@@ -39,9 +39,16 @@
         * FileSystem (command: ```npm i fs```)
         * Util (command: ```npm i util```)
 
-  4. Lastly use the command: ```node index.js ``` to run the file.
+  
 
   ## Usage    
+
+  Once all of the installations are complete you are now ready to use the README Generator. The application is easy to use. Just follow the steps:
+
+  1. Use the command: ```node index.js ``` inside of the system terminal to run the file.
+  2. Follow the prompts inside of the terminal that request information about your projects.
+  3. Once you are finished with the prompts press 'enter' and the application will automatically generate the markdown file bearing the name of your project filled out with the inputted information about your project located within its relevant sections. The file will be created within the folder that the application's source files are located.
+  4. Look at your brand new README file that meets all of your formatting needs for your project!
 
   
 
