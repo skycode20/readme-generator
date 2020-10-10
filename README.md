@@ -59,17 +59,21 @@
     <img src="Develop\assets\img\sampleREADME.jpg" alt="Sample Readme">
     <br>
 
+    ```Please see "The Coolest App" for an example of how well the README Generator works.```
+
   
 
   ## License    
 
-  The inquirer is covered under the following license: ![inquirer](https://img.shields.io/npm/l/inquirer)
+  The inquirer, util, node, and fs npms are covered under the following license: ![inquirer](https://img.shields.io/npm/l/inquirer)
 
   ## Contributing     
 
   If you are interested in contributing to this project please adhere to the set of guidelines set forth by the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/). If any questions about the contributor guidelines feel free to contact me at skyler.rencher@gmail.com.
 
   ## Tests    
+
+  We have tested the application out by checking to see if there were any bugs during the alpha phase. We went into the beta phase once we were confident most of the bugs were fixed. Once we optimized the software to gold status we were able to have a working application free of bugs and ready to use.
 
 
 
