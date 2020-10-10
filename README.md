@@ -29,7 +29,17 @@
   
   ## Installation    
 
-  
+  To install the README Generator please follow these steps:
+
+  1. Download all of the project's source files.
+  2. Ensure your terminal is inside of the current folder that contains the source files.
+  3. Install the following **NPMs** (Node Package Managers) in the system terminal:
+        * Node.js
+        * Inquirer (command: ```npm i inquirer```)
+        * FileSystem (command: ```npm i fs```)
+        * Util (command: ```npm i util```)
+
+  4. Lastly use the command: ```node index.js ``` to run the file.
 
   ## Usage    
 
