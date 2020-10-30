@@ -3,7 +3,7 @@ function generateMarkdown(answers) {
   return `# ${answers.title}
 
   ![${answers.npm}](https://img.shields.io/npm/l/${answers.npm})
-  ![${answers.title}](https://img.shields.io/github/languages/top/${answers.path})
+  ![${answers.title}](https://img.shields.io/github/languages/top/skycode20/${answers.path})
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
   - by *${answers.name}*
