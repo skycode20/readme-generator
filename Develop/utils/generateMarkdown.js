@@ -7,6 +7,10 @@ function generateMarkdown(answers) {
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
   - by *${answers.name}*
+
+  ## Links
+
+  * [${answers.title} Application](${answers.link})
   
   ## Description    
 
@@ -47,10 +51,6 @@ function generateMarkdown(answers) {
   ## Questions    
 
   If you have any questions about the project feel free to reach out to me on via email: ${answers.email} or via Git Hub: https://github.com/${answers.username}.
-  
-  ## Links
-
-  * [${answers.title} Application](${answers.link})
 
 `;
 }
